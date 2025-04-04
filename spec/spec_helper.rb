@@ -10,7 +10,7 @@ RSpec.configure do |config|
   # config.order = :random
   # Kernel.srand config.seed
 
-  config.after do
-    Seeds.reset
-  end
+  # config.after do
+  #   Seeds.reset
+  # end
 end
